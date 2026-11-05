@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - Death
+  - Win
   layers:
   - Default
   - TransparentFX
@@ -45,6 +46,9 @@ TagManager:
     locked: 0
   - name: Background
     uniqueID: 1952691375
+    locked: 0
+  - name: Game
+    uniqueID: 2941323805
     locked: 0
   m_RenderingLayers:
   - Default

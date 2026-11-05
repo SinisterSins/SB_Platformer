@@ -51,13 +51,13 @@ public class PlayerController : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Death")) //When hitting death tag, level resets
         {
-            Debug.Log("Hitting death tigger");
+            //Debug.Log("Hitting death trigger");
             SceneManager.LoadScene("GameScene");
         }
 
         if (other.gameObject.CompareTag("Win")) //when hitting win tag, loads win scene
         {
-            Debug.Log("You're Winner");
+            //Debug.Log("You're Winner");
             SceneManager.LoadScene("WinScene");
         }
     }
